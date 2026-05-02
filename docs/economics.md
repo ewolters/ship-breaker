@@ -81,3 +81,9 @@ Whether hazmat treatment can stand on its own as a **profit center independent o
 | Hub-and-spoke | Non-negotiable for the model |
 
 The hub-and-spoke architecture from the morphological analysis is the load-bearing insight: the hub (hazmat treatment + materials recovery) is the business. The spokes (demolition berths) are the intake mechanism.
+
+### Note: Hydraulic Gradient Energy Cost
+Active hydraulic containment at spoke scale (360x70m berth, 1m inward gradient, coastal hydraulic conductivity) requires ~50-200 kW continuous pumping, or **$0.5-2M/year per spoke** at industrial electricity prices. This is a material operating cost that shifts breakeven timing and must be factored into per-ship amortization.
+
+### Note: Asbestos Pathway
+Asbestos vitrification (e.g., Inertam in France) is industrially proven for producing inert glass/structural fill. The stronger claim — resaleable ceramic precursor — is not established. Default assumption: vitrification to structural fill, which is a cost-avoidance play (avoiding landfill liability) rather than a revenue center.

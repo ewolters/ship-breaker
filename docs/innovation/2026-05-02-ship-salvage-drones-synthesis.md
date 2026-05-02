@@ -10,7 +10,7 @@
 
 This is not a ship-breaking company. It is an **energy and materials company that happens to dismantle ships.**
 
-The insight emerged from morphological analysis (Combination 8): when hazmat treatment infrastructure — thermal destruction with heat recovery, pharmaceutical-grade fractionation — sits at a permanent hub, and modular demolition spokes feed it, the value chain inverts. The demolition is the intake process. The products are energy, refined metals, ceramic precursors (from asbestos fiber), commodity-grade heavy metals, and chlorine-content chemicals. The ship is feedstock.
+The insight emerged from morphological analysis (Combination 8): when hazmat treatment infrastructure — thermal destruction with heat recovery, pharmaceutical-grade fractionation — sits at a permanent hub, and modular demolition spokes feed it, the value chain inverts. The demolition is the intake process. The products are energy, refined metals, vitrified structural fill (from asbestos fiber), commodity-grade heavy metals, and chlorine-content chemicals. The ship is feedstock.
 
 This reframe changes:
 - **The investor pitch** — from "we solve an environmental problem" to "we operate a materials processing facility with a unique, low-cost feedstock supply"
@@ -26,8 +26,8 @@ This reframe changes:
 
 **Hub:** A permanent materials recovery and energy facility at a single high-density scrapping geography. Contains:
 - Thermal destruction with heat recovery (rotary kiln, waste-to-energy)
-- Pharmaceutical-grade fractionation lines (contaminants as feedstock)
-- Refined materials output (metals to commodity grade, asbestos to ceramic precursor, PCB fractions to licensed chemical markets)
+- Fractionation lines (contaminants as feedstock)
+- Refined materials output (metals to commodity grade, asbestos vitrification to structural fill, PCB fractions to licensed chemical destruction markets)
 - Century-scale monitored vault for irreducible residuals
 
 **Spokes:** Modular demolition berths deployable to vessel graveyard sites or port cities. Each spoke contains:
@@ -89,7 +89,7 @@ The TRIZ P35 solution resolves this: **change what regulators approve.** Instead
 - Maximum rate of structural change per hour
 - Abort triggers and safe-state definitions
 
-CLASP can generate any sequence within certified parameters. The regulatory object shifts from "what the system does" to "what the system cannot exceed." This is how aviation autopilot certification works — the FAA certifies the flight envelope, not every stick input. The precedent exists and is defensible.
+CLASP can generate any sequence within certified parameters. The regulatory object shifts from "what the system does" to "what the system cannot exceed." The closest existing precedent is **OSHA Process Safety Management (29 CFR 1910.119)** in chemical plants: regulators approve Safe Operating Limits and Mechanical Integrity programs, and the DCS (distributed control system) operates freely within those limits with logged exception handling. This is genuine envelope certification, already legally established for hazardous industrial operations in the US.
 
 The morphological analysis added a second layer: **third-party actuarial authorization.** A licensed indemnity underwriter prices the operation based on probabilistic risk models. This serves two functions:
 1. Regulatory acceptance of underwriter sign-off as a legal proxy (precedent: marine insurance already governs vessel operations)
@@ -120,8 +120,8 @@ These are not showstoppers. They are engineering and business questions that req
 ### Technical
 1. **Reactive coating chemistry:** Does a multi-indicator coating exist that can simultaneously signal for asbestos, PCBs, heavy metals, AND structural stress? What's the spray-to-readable time? What's the cost per square meter at vessel scale?
 2. **Laminar slicing at scale:** What cutting technology handles a full-beam horizontal plane on a Panamax (32.3m beam)? Plasma? Oxy-fuel? What's the kerf width and how does it affect structural stability of the remaining hull?
-3. **Hydraulic gradient energy cost:** What pumping power is required to maintain an inward gradient at a coastal site with tidal pressure cycling? Is this economically viable at spoke scale?
-4. **Pharmaceutical-grade fractionation economics:** What's the capital cost of hub-scale fractionation lines? What are realistic commodity prices for recovered heavy metals, ceramic-grade asbestos fiber, and chlorine-content PCB fractions? Is the revenue material or symbolic?
+3. **Hydraulic gradient energy cost:** Rough estimate: maintaining a 1m inward gradient on a 360x70m berth perimeter at typical coastal hydraulic conductivity is ~50-200 kW continuous, or $0.5-2M/year per spoke at industrial electricity prices. Not catastrophic but shifts breakeven by months — must be priced into economics explicitly.
+4. **Fractionation economics and asbestos pathway:** Asbestos vitrification (e.g., Inertam in France) is industrially proven for producing inert glass/structural fill. The stronger claim — resaleable ceramic precursor — requires a specific commercial-grade asbestos-to-feedstock pathway that is not yet established. Default to vitrification with structural fill output unless a feedstock pathway can be cited. What are realistic commodity prices for recovered heavy metals and PCB fraction destruction fees? Is fractionation revenue material or symbolic?
 
 ### Regulatory
 5. **Envelope certification precedent:** Has any maritime regulatory body accepted envelope-style certification for autonomous industrial operations? What's the closest precedent? Who do you talk to first — IMO, national maritime authority, or port authority?
